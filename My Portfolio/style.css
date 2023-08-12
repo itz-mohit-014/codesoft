@@ -452,6 +452,7 @@ header nav{
       transform: scaleY(2);
       height: 30px;
       width: 100%;
+      margin: 8px 0px;
       transition: 0.5s;
 }
 
