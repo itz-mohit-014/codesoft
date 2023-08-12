@@ -884,6 +884,12 @@ footer > .design-credit :where( a , p ){
     .different-sections{
         padding: 1rem;
     }
+
+    /* About section skills progress bar */
+    .skills > progress{
+        transform: scaleY(1);
+
+    }
     /* Resume Seciton */
     .download-my-resume > button{
         font-size: var(--extra-small-size-para);
