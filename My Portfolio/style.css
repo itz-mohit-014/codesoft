@@ -451,6 +451,7 @@ header nav{
       accent-color: var(--color-success-rgb);
       transform: scaleY(2);
       height: 30px;
+      width: 100%;
       transition: 0.5s;
 }
 
