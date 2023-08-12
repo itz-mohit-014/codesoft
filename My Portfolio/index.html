@@ -1,0 +1,534 @@
+<!-- 
+  Author : Mohit Jangid
+  Design : My ProtFolio Page
+  Follow me on linkedin for more like this...
+linkedin : https://www.linkedin.com/in/mohit487/
+
+  Task Provided by CodeSoft company. 
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <!-- Link Favicone -->
+    <link
+      rel="shortcut icon"
+      href="./Assets/pie-chart_10327278.png"
+      type="image/x-icon"
+    />
+    <!-- stylesheet linking -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome Icons linking -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- header section -->
+    <header class="header">
+      <div class="logo">
+        <h1 class="logo-txt">MyFolio</h1>
+      </div>
+      <nav>
+        <!-- Hamburger Menu -->
+        <div class="hamburger-menu-container">
+          <div class="hamburger-menu-lines line1"></div>
+          <div class="hamburger-menu-lines line2"></div>
+          <div class="hamburger-menu-lines line3"></div>
+        </div>
+
+        <!-- Nav Links -->
+        <ul class="nav-links">
+          <li class="nav-link-menus">
+            <a href="#hero"> Home </a>
+          </li>
+          <li class="nav-link-menus">
+            <a href="#about"> About </a>
+          </li>
+          <li class="nav-link-menus">
+            <a href="#resume"> Resume </a>
+          </li>
+
+          <li class="nav-link-menus">
+            <a href="#portfolio" class="nav-links-menus-items"> Portfolio </a>
+          </li>
+          <li class="nav-link-menus">
+            <a href="#contact" class="nav-links-menus-items"> Contact </a>
+          </li>
+        </ul>
+        <!-- Nav Links End -->
+      </nav>
+    </header>
+    <!-- Header End... -->
+
+    <!-- Main body with different section start -->
+    <main>
+      <!-- Hero Section start-->
+
+      <section class="hero-section" id="hero">
+        <!-- Hero Section title -->
+        <h1 class="title">I am Mohit Jangid</h1>
+        <!-- dynamic text  -->
+        <div class="dynamic-text-container">
+          <ul class="mulit-text-container">
+            <li class="changing-text">Web Developer</li>
+            <li class="changing-text">FrontEnd Engineer</li>
+            <li class="changing-text">Freelancer</li>
+          </ul>
+        </div>
+
+        <!-- Socials links -->
+        <div class="social-links">
+          <a href="https://www.instagram.com/div_monu_01/">
+            <span class="social-icons fa-brands fa-instagram"> </span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/mohit487/">
+            <span class="social-icons fa-brands fa-linkedin"> </span>
+          </a>
+        </div>
+      </section>
+      <!-- Hero SEction End -->
+
+      <!-- About section start-->
+      <!-- few styling for all section -->
+      <section class="about-section different-sections" id="about">
+        <div class="page-heading-wrapper about-title">
+          <p>ABOUT</p>
+          <h2>Read More About Me</h2>
+          <div class="about-img">
+            <figure>
+              <img
+                src="./Assets/about-me.png"
+                alt="My Profile"
+                loading="lazy"
+              />
+              <figcaption>My Profile</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <!-- Right container of about section -->
+        <div class="right-about-details-wrapper">
+          <!-- Personal Bio listing-->
+          <div class="personal-bio">
+            <ul>
+              <li>
+                <span class="icon"
+                  ><i class="fa-solid fa-angle-right"></i>
+                </span>
+                <strong>Name:</strong>
+                Mohit Jangid
+              </li>
+
+              <li>
+                <span class="icon"
+                  ><i class="fa-solid fa-angle-right"></i>
+                </span>
+                <strong>Degree:</strong>
+                BCA
+              </li>
+
+              <li>
+                <span class="icon">
+                  <i class="fa-solid fa-angle-right"></i>
+                </span>
+                <strong>Freelancer:</strong>
+                Available
+              </li>
+            </ul>
+
+            <!-- second bio in about section -->
+            <ul>
+              <li>
+                <span class="icon">
+                  <i class="fa-solid fa-angle-right"></i>
+                </span>
+                <strong>Email:</strong>
+                mohitjangid38437@gmail.com
+              </li>
+
+              <li>
+                <span class="icon">
+                  <i class="fa-solid fa-angle-right"></i>
+                </span>
+                <strong>Phone:</strong>
+                +91 7733893843
+              </li>
+
+              <li>
+                <span class="icon">
+                  <i class="fa-solid fa-angle-right"></i>
+                </span>
+                <strong>City:</strong>
+                Jaipur, Rajasthan
+              </li>
+            </ul>
+          </div>
+          <!-- Bio listing End -->
+
+          <!-- about-section >> My details -->
+          <p class="about-me-details">
+            I am Mohit Jangid, passionate and aspiring frontend developer
+            currently studying BCA from Shri Balaji College of Engineering and
+            Technology, Jaipur. With a keen interest in coding and programming,
+            I am dedicated to building visually appealing and user-friendly
+            websites.
+            <br />
+            <br />
+            As a fresh and enthusiastic developer, my aim is to contribute my
+            skills and knowledge to a dynamic organization where I can work on
+            exciting projects and further enhance my abilities. I am eager to be
+            part of a collaborative team that fosters creativity and innovation
+            in the field of web development.
+          </p>
+
+          <!-- Skills section wrapper  -->
+          <div class="skills-wrapper">
+            <!-- added page heading class to use same styling here  -->
+            <div class="page-heading-wrapper">
+              <p>Skills</p>
+            </div>
+
+            <!-- Different Skills with some text and progress bar -->
+            <!-- HTML SKILLS -->
+            <div class="skills">
+              <label for="file">HTML:</label>
+
+              <span class="skills-percentage"> 90% </span>
+
+              <progress id="file" max="100" value="90">90%</progress>
+
+              <p class="skills-about">
+                Proficient in HTML: I have a solid understanding of HTML and its
+                various elements, allowing me to structure web pages
+                effectively.
+              </p>
+            </div>
+
+            <!-- CSS skills -->
+            <div class="skills">
+              <label for="file">CSS:</label>
+
+              <span class="skills-percentage"> 80% </span>
+
+              <progress id="file" max="100" value="80">80%</progress>
+
+              <p class="skills-about">
+                CSS expertise: I am skilled in CSS and capable of creating
+                stylish and responsive designs, ensuring a seamless user
+                experience across different devices.
+              </p>
+            </div>
+
+            <!-- JavaScript skills -->
+            <div class="skills">
+              <label for="file">JAVASCRIPT:</label>
+
+              <span class="skills-percentage"> 50% </span>
+
+              <progress id="file" max="100" value="50">50%</progress>
+
+              <p class="skills-about">
+                JavaScript fundamentals: I have a good grasp of JavaScript
+                concepts, enabling me to add interactivity and functionality to
+                web pages.
+              </p>
+            </div>
+          </div>
+          <!-- Skills End -->
+        </div>
+      </section>
+      <!-- ABout SEction ENd -->
+
+      <!-- Resume Section start -->
+      <section class="resume-section different-sections" id="resume">
+        <!-- Apply same styling to title of this section also -->
+        <div class="page-heading-wrapper resume-title">
+          <p>Resume</p>
+          <h2>Check My Resume</h2>
+        </div>
+
+        <!-- resume download button -->
+        <div class="download-my-resume" id="downloadResume">
+          <button type="button">Download My Resume</button>
+        </div>
+
+        <!-- resume section More Details  -->
+
+        <div class="resume-section-container">
+          <!-- Summary container -->
+          <div class="different-part-container">
+            <h2 class="title">Summary</h2>
+            <div class="resume-details-wrapper">
+              <h3>Web Developer</h3>
+              <p>
+                Looking for an entry-level position in the Web Developer domain
+                where I can utilize my extensive knowledge about the area gained
+                during my BCA degree. Able to effectively self-manage during
+                independent projects, as well as collaborate in a team setting.
+              </p>
+
+              <ul>
+                <li>Jaipur, Rajasthan 302012</li>
+                <li>+91 7733893843</li>
+                <li>mohitjangid38437@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Education container -->
+          <div class="different-part-container">
+            <h2 class="title">Education</h2>
+            <!-- First education -->
+            <div class="resume-details-wrapper">
+              <h3>Bachelor of Computer Applications</h3>
+
+              <div class="time-perion">
+                <button type="button">2022 - 2025 (pursuing)</button>
+              </div>
+              <p class="college-name">
+                Sri Balaji College of Engineering and Technology, Jaipur
+              </p>
+            </div>
+            <!-- second education -->
+            <div class="resume-details-wrapper">
+              <h3>10+ 2 form commerce</h3>
+
+              <div class="time-perion">
+                <button type="button">2020</button>
+              </div>
+              <p class="college-name">Anand Public Sr. Sec. School</p>
+            </div>
+          </div>
+
+          <!-- Experience container -->
+          <div class="different-part-container">
+            <h2 class="title">Professional Experience</h2>
+            <div class="resume-details-wrapper">
+              <h3>Web Developer Inter at CodSoft</h3>
+
+              <div class="time-perion">
+                <button type="button">1 Aug, 2023 - 31 Aug, 2023</button>
+              </div>
+              <p>Remote Job</p>
+              <ul>
+                <li>
+                  Developed an Responsive Landing Webpage as a first task given
+                  by the using HTML CSS and JavaScript.
+                </li>
+                <li>
+                  Create an Responsive My PortFolio Webpage as a second task
+                  given by the using HTML CSS and JavaScript.
+                </li>
+                <li>
+                  Implemented responsive design principles to ensure websites
+                  are mobile friendly.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Experience container end -->
+        </div>
+        <!-- resume all areas wrapper end -->
+      </section>
+      <!-- Resume Section end -->
+
+      <!-- Portfolio Section Start -->
+      <section class="portfolio-section different-sections" id="portfolio">
+        <!-- Portfolio title -->
+        <div class="page-heading-wrapper resume-title">
+          <p>Portfolio</p>
+          <h2>Check My Work</h2>
+        </div>
+
+        <!-- my portfolio works cards -->
+        <div class="my-portfolio-work-cards">
+          <!-- Card1 >> Landing Page -->
+          <div class="work-cards" id="card1">
+            <img src="./Assets/work1.png" alt="Landing Page" />
+            <div class="work-cards-content">
+              <h3>Responsive Landing Page</h3>
+              <p>Get internship task form CodSoft</p>
+              <div class="code-and-links">
+                <a
+                  href="https://itz-mohit-014.github.io/codsoft/landingPage/index.html"
+                >
+                  <i class="fa-solid fa-link" title="Line-preview"></i>
+                </a>
+
+                <a href="https://github.com/itz-mohit-014/codsoft.git">
+                  <i class="fa-solid fa-code" title="Github Code Link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card2 >> Image Gallry Page -->
+          <div class="work-cards" id="card2">
+            <img src="./Assets/work2.png" alt="Image Gallery Page" />
+            <div class="work-cards-content">
+              <h3>Responsive Image Gallery Page</h3>
+              <p>Get challenges from Divchallenges and solved this</p>
+              <div class="code-and-links">
+                <a
+                  href="https://itz-mohit-014.github.io/codsoft/landingPage/index.html"
+                >
+                  <i class="fa-solid fa-link" title="Line-preview"></i>
+                </a>
+
+                <a href="https://github.com/itz-mohit-014/codsoft.git">
+                  <i class="fa-solid fa-code" title="Github Code Link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card1 >> Interior Design Page -->
+          <div class="work-cards" id="card3">
+            <img src="./Assets/work3.png" alt="Interior Design Page" />
+            <div class="work-cards-content">
+              <h3>Responsive Interior Design Page</h3>
+              <p>Get challenges from Divchallenges and solved this</p>
+              <div class="code-and-links">
+                <a
+                  href="https://itz-mohit-014.github.io/codsoft/landingPage/index.html"
+                >
+                  <i class="fa-solid fa-link" title="Line-preview"></i>
+                </a>
+
+                <a href="https://github.com/itz-mohit-014/codsoft.git">
+                  <i class="fa-solid fa-code" title="Github Code Link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Interior page end-->
+        </div>
+        <!-- protfolio work wrapper end-->
+      </section>
+      <!-- Portfolio Section end -->
+
+      <!-- contact section start -->
+      <section class="contact-section different-sections" id="contact">
+        <!-- contact title -->
+        <div class="page-heading-wrapper resume-title">
+          <p>Contact</p>
+          <h2>Contact me</h2>
+        </div>
+
+        <!-- Contact From wrapper -->
+        <div class="contact-form-wrapper">
+          <!-- Left container include Email, Phone no, Social Media -->
+          <div class="left-form-container">
+            <!-- Social Profiles container -->
+            <div class="contact-info-container" id="social-profiles">
+              <div class="icon"><i class="fa-solid fa-share-nodes"></i></div>
+              <p class="title">Social Profiles</p>
+              <div class="social-icons">
+                <a href="https://www.instagram.com/div_monu_01/">
+                  <i class="fa-brands fa-instagram"> </i>
+                </a>
+                <a href="https://www.linkedin.com/in/mohit487">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/itz-mohit-014/">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://codepen.io/itz-mohit-014">
+                  <i class="fa-brands fa-codepen"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Email container -->
+            <div class="contact-info-container" id="email">
+              <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+              <p class="title">Email Me</p>
+              <span id="my-mail"> mohitjangid38437@gmail.com </span>
+            </div>
+
+            <!-- Phone No. container -->
+            <div class="contact-info-container" id="contact-number">
+              <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+              <p class="title">Call Me</p>
+              <span id="my-contact"> +91 7733893843 </span>
+            </div>
+          </div>
+
+          <!-- Right container form fill data -->
+          <div class="right-form-fill-container">
+            <form method="post" href="mailto:mohitjangid@gmail.com">
+              <input
+                type="text"
+                name="fname"
+                id="name"
+                placeholder="Your Name"
+              />
+              <input
+                type="text"
+                name="email"
+                id="mail"
+                placeholder="Your Email"
+              />
+              <input
+                type="text"
+                name="Subject"
+                id="subj"
+                placeholder="Subject"
+              />
+              <textarea
+                name="msg"
+                id="msg"
+                cols="30"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
+
+              <div class="btn">
+                <a href="mailto:mohitjangid@gmail.com">
+                  <button type="button">Send Message</button>
+                </a>
+              </div>
+            </form>
+          </div>
+          <!-- Right section end -->
+        </div>
+        <!-- contact info wrapper end-->
+      </section>
+      <!-- contact section end -->
+    </main>
+    <!-- Main Body container end -->
+
+    <!-- Footerr Section -->
+    <footer>
+      <div class="design-credit">
+        <p class="credit-txt">
+          Design By &copy;
+          <a href="https://www.linkedin.com/in/mohit487"> Mohit Jangid </a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Linking JS fils -->
+    <script src="./script.js"></script>
+  </body>
+</html>
