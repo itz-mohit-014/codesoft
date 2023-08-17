@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+
+    <!-- Linking Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="calculator-body">
+      <!-- calculator input and result -->
+      <div class="calculator-screen">
+        <!-- for taking input and print result-->
+        <input
+          type="text"
+          name="enter-value"
+          id="disply-screen"
+          value="0"
+          autofocus
+        />
+      </div>
+      <!-- calculatro btn -->
+      <div class="calculator-btn-wrapper">
+        <button type="button" class="remove" id="all-clr" value="AC">AC</button>
+        <button type="button" class="remove" id="delete" value="del">
+          <i class="fa-solid fa-delete-left"></i>
+        </button>
+        <button type="button" value=".">.</button>
+
+        <button type="button" class="operations" id="division" value="/">
+          &#247;
+        </button>
+        <button type="button" value="7">7</button>
+        <button type="button" value="8">8</button>
+        <button type="button" value="9">9</button>
+        <button type="button" class="operations" id="multiplication" value="*">
+          &#42;
+        </button>
+        <button type="button" value="4">4</button>
+        <button type="button" value="5">5</button>
+        <button type="button" value="6">6</button>
+        <button type="button" class="operations" id="substraction" value="-">
+          &#8722;
+        </button>
+        <button type="button" value="1">1</button>
+        <button type="button" value="2">2</button>
+        <button type="button" value="3">3</button>
+        <button type="button" class="operations" id="addition" value="+">
+          &#43;
+        </button>
+        <button type="button" value="0">0</button>
+        <button type="button" class="operations" id="calculate" value="=">
+          &#61;
+        </button>
+      </div>
+    </div>
+
+    <!-- addint js file -->
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+:root{
+    /* ***Declaring common Variables**** */
+
+    /* for calculator background */
+    --bg-color-dark:rgb(4, 5, 8);
+    --bg-color-light:rgb(238, 241, 247) ;
+    --bg-color-btn-gray:rgb(69, 72, 79);
+    --bg-color-btn-sky-hover: rgb(0, 140, 255);
+    
+      /* for text color */
+    --color-gray:rgb(128, 128, 128);
+    --color-light:#EEF1F7 ;
+    --color-sky2: rgb(103, 160, 207);
+    --color-btn-sky: rgb(0, 140, 255);
+
+    /* for font styling */
+    --font-family: 'Poppins', sans-serif;
+    --font-big:36px;
+    --font-size-btn:26px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom, pink, blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* calculator body styling */
+#calculator-body{
+    width: min(100vw , 450px);
+    height: 650px;
+    background-color: var(--bg-color-dark);
+    border-radius: 2rem;
+    padding: 2rem;
+}
+/* claculator screen styling */
+.calculator-screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 8px;
+    height: 30%;
+    padding-bottom: 2rem;
+}
+
+input {
+    text-align: right;
+    outline: none;
+    border: none;
+    border: 2px solid var(--color-light);
+    background-color: var(--bg-color-light);
+    box-shadow: inset 10px 10px 5px  rgba(4, 5, 8, 0.9), inset -10px -10px 5px  rgba(4, 5, 8, 0.9); 
+    border-radius: 1rem;
+    padding: 0px 1.5rem ;
+    font-size: var(--font-big);
+    height: 100%;
+    width: 100%;
+    color: var(--color-btn-sky);   
+}
+
+/* button container styling */
+.calculator-btn-wrapper{
+    width: 100%;
+    height: 60%;
+    display:grid ;
+    grid-template-columns: repeat( 4 ,1fr);
+    gap: 15px 18px;
+}
+
+/* btn styling start */
+button{
+    font-family: var(--font-family);
+    font-size: var(--font-size-btn);
+    font-weight: 600;
+    color: var(--color-btn-sky);
+    background-color: var(--bg-color-btn-gray);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: 0.2s;
+}
+button:hover{
+    box-shadow: -8px 8px 20px var(--color-sky2);
+}
+button:active{
+    transform: scale(0.95);
+}
+button.remove{
+    background-color: rgb(215, 213, 213);
+    color: var(--color-gray);
+}
+/* operation btn some different styling */
+button.operations{
+    font-weight: 800;
+    background-color: rgba(0, 140, 255, 0.8);
+    color: rgb(128, 190, 241);
+}
+button.operations:hover{
+    background-color: var(--bg-color-btn-sky-hover);
+    color: var(--color-light);
+}
+button#addition{
+    grid-row: 2 span ;
+}
+
+button:nth-child(17){    
+    grid-column: 2 span;
+}
