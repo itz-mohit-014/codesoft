@@ -36,20 +36,16 @@ body{
 }
 /* calculator body styling */
 #calculator-body{
-    width: min(100vw , 450px);
+    width: min(100vw , 400px);
     height: 650px;
     background-color: var(--bg-color-dark);
     border-radius: 2rem;
-    padding: 2rem;
+    padding: 2rem 1.5rem;
 }
 /* claculator screen styling */
 .calculator-screen{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    gap: 8px;
-    height: 30%;
-    padding-bottom: 2rem;
+    height: 25%;
+    margin-bottom: 30px;
 }
 
 input {
@@ -69,7 +65,7 @@ input {
 
 /* button container styling */
 .calculator-btn-wrapper{
-    width: 100%;
+    max-width: 100%;
     height: 60%;
     display:grid ;
     grid-template-columns: repeat( 4 ,1fr);
@@ -86,7 +82,7 @@ button{
     cursor: pointer;
     outline: none;
     border: none;
-    padding: 1rem;
+    padding: 1rem 0px;
     border-radius: 1rem;
     transition: 0.2s;
 }
